@@ -1,0 +1,15 @@
+src/bin/
+src/obj/
+vendor/
+artifacts/
+release/
+*.user
+**/save/
+**/backups/
+**/recovery/
+*.log
+*.bak
+.env
+.env.*
+!.env.example
+.vs/

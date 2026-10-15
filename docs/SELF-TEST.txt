@@ -1,0 +1,44 @@
+PASS 18 physical keys occupy all 20 grid cells without overlap
+PASS Main keyboard is never consumed
+PASS Selected keypad consumes original digit
+PASS Held keys trigger once until release
+PASS Paused mode passes through all keys
+PASS Device zero cannot be consumed
+PASS One keypad zero press identifies its source without waiting for Enter
+PASS Pairing supports number-row zero but rejects helper events and releases
+PASS Keypad Enter is different from regular Enter
+PASS Navigation arrows do not match numpad digits
+PASS Wireless NumLock noise consumed without becoming another key
+PASS Chord modifiers pressed first and released last
+PASS Multiple modifiers and duplicate keys handled
+PASS Unicode text produces paired events including Turkish and emoji
+PASS x64 SendInput structure matches ABI
+PASS Interception key stroke matches ABI
+PASS Invalid URLs and executable URL schemes rejected
+PASS Delay bounds and unknown keys rejected
+PASS Empty macro and invalid media rejected
+PASS Defaults validate and clones are independent
+PASS Configuration roundtrip preserves sequences and application arguments
+PASS Import rejects unknown physical keys
+PASS Visual keyboard adds a simultaneous chord through its actual button
+PASS Main editor saves and clears a task through actual UI buttons
+PASS Import/export roundtrip on a real temporary file
+PASS Live theme switching updates existing controls without changing assignments
+PASS Closing unsaved theme settings restores the previous appearance
+PASS Embedded app icon contains seven sizes and is available to windows and tray
+PASS Saved macro and website survive a fresh repository instance
+PASS Legacy config.json migrates without losing assignments or preferences
+PASS Unknown and missing themes fall back without discarding tasks
+PASS Corrupted primary file recovers the newest mirror and preserves raw data
+PASS Two corrupt current copies recover the previous valid save
+PASS One invalid binding cannot discard other new bindings or restore deleted keys
+PASS Invalid edits cannot overwrite the last valid saved file
+PASS An unavailable primary location still saves and reloads the mirror
+PASS Unreadable files remain untouched until an explicit save
+PASS Factory reset clears every task and pairing, including after backup recovery
+PASS Incomplete editor drafts survive reopening and clear markers prevent resurrection
+PASS Factory reset clears the visible editor and all sample bindings
+PASS A pre-reset draft cannot restore a cleared task after factory reset
+PASS Save data survives two completely separate application processes
+
+42 passed, 0 failed. No real keystrokes sent; no driver installed or filters changed.
